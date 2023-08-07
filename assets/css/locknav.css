@@ -1,0 +1,43 @@
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+nav{
+    overflow:hidden;
+    width:100%;
+    background:blue;
+    position:fixed;
+    top:0;
+    height:60px;
+    display: flex;
+    justify-content:space-around ;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+nav.logo{
+    width:30%;
+    left:-30px;
+    position: relative;
+    top:-18px;
+    background-color: red;
+}
+nav .logo img{
+    padding-top: 10px;
+    width:40px;
+}
+nav li{
+    display: inline;
+
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+nav a:hover{
+    color:red;
+}
